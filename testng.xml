@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+	<listeners>
+		<listener class-name="com.tutorialsninja.selenium.Listeners" />
+	</listeners>
+	<test name="Landing Page Tests">
+		<classes>
+			<class name="com.tutorialsninja.selenium.HomePageTests" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Login/Register Module Tests">
+		<classes>
+			<class name="com.tutorialsninja.selenium.LoginPageTests" />
+			<class name="com.tutorialsninja.selenium.RegistrationTest" />
+		</classes>
+	</test> <!-- Test -->
+	<test name="Checkout Test">
+		<classes>
+			<class name="com.tutorialsninja.selenium.CheckoutTest" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,6 @@
+14:14:17.191 [main] INFO  resources.Base - An email with a confirmation link has been sent your email address.
+14:14:18.723 [main] INFO  resources.Base - You have logged in successfully
+14:14:18.727 [main] INFO  resources.Base - You are successfully on the account page
+14:14:20.105 [main] INFO  resources.Base - You have successfully logged out and on the homepage
+14:14:24.093 [main] ERROR resources.Base - Warning: E-Mail Address is already registered!
+14:14:31.694 [main] INFO  resources.Base - You have logged in successfully

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="8" passed="8" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2020-08-05T14:13:51 EDT" name="Suite" finished-at="2020-08-05T14:15:06 EDT" duration-ms="74884">
+    <groups>
+    </groups>
+    <test started-at="2020-08-05T14:13:51 EDT" name="Landing Page Tests" finished-at="2020-08-05T14:14:02 EDT" duration-ms="10668">
+      <class name="com.tutorialsninja.selenium.HomePageTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tutorialsninja.selenium.HomePageTests@1cbb87f3]" started-at="2020-08-05T14:13:51 EDT" name="initialize" finished-at="2020-08-05T14:13:58 EDT" duration-ms="6660" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="validateCurrencyChange()[pri:0, instance:com.tutorialsninja.selenium.HomePageTests@1cbb87f3]" started-at="2020-08-05T14:13:58 EDT" name="validateCurrencyChange" finished-at="2020-08-05T14:14:01 EDT" duration-ms="3144" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrencyChange -->
+        <test-method signature="validateCurrencyElements()[pri:0, instance:com.tutorialsninja.selenium.HomePageTests@1cbb87f3]" started-at="2020-08-05T14:14:01 EDT" name="validateCurrencyElements" finished-at="2020-08-05T14:14:01 EDT" duration-ms="247" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateCurrencyElements -->
+        <test-method signature="validateLogo()[pri:0, instance:com.tutorialsninja.selenium.HomePageTests@1cbb87f3]" started-at="2020-08-05T14:14:01 EDT" name="validateLogo" finished-at="2020-08-05T14:14:02 EDT" duration-ms="575" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- validateLogo -->
+      </class> <!-- com.tutorialsninja.selenium.HomePageTests -->
+    </test> <!-- Landing Page Tests -->
+    <test started-at="2020-08-05T14:14:02 EDT" name="Login/Register Module Tests" finished-at="2020-08-05T14:14:24 EDT" duration-ms="21276">
+      <class name="com.tutorialsninja.selenium.RegistrationTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tutorialsninja.selenium.RegistrationTest@2b5825fa]" started-at="2020-08-05T14:14:08 EDT" name="initialize" finished-at="2020-08-05T14:14:15 EDT" duration-ms="6050" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testRegistration()[pri:0, instance:com.tutorialsninja.selenium.RegistrationTest@2b5825fa]" started-at="2020-08-05T14:14:20 EDT" name="testRegistration" finished-at="2020-08-05T14:14:24 EDT" duration-ms="3987" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRegistration -->
+      </class> <!-- com.tutorialsninja.selenium.RegistrationTest -->
+      <class name="com.tutorialsninja.selenium.LoginPageTests">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tutorialsninja.selenium.LoginPageTests@57eda880]" started-at="2020-08-05T14:14:02 EDT" name="initialize" finished-at="2020-08-05T14:14:08 EDT" duration-ms="6167" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="forgotPassword()[pri:0, instance:com.tutorialsninja.selenium.LoginPageTests@57eda880]" started-at="2020-08-05T14:14:15 EDT" name="forgotPassword" finished-at="2020-08-05T14:14:17 EDT" duration-ms="2155" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotPassword -->
+        <test-method signature="testLogin()[pri:0, instance:com.tutorialsninja.selenium.LoginPageTests@57eda880]" started-at="2020-08-05T14:14:17 EDT" name="testLogin" finished-at="2020-08-05T14:14:18 EDT" duration-ms="1533" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogin -->
+        <test-method signature="testLogout()[pri:0, instance:com.tutorialsninja.selenium.LoginPageTests@57eda880]" started-at="2020-08-05T14:14:18 EDT" name="testLogout" finished-at="2020-08-05T14:14:20 EDT" duration-ms="1377" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogout -->
+      </class> <!-- com.tutorialsninja.selenium.LoginPageTests -->
+    </test> <!-- Login/Register Module Tests -->
+    <test started-at="2020-08-05T14:14:24 EDT" name="Checkout Test" finished-at="2020-08-05T14:15:06 EDT" duration-ms="42224">
+      <class name="com.tutorialsninja.selenium.CheckoutTest">
+        <test-method is-config="true" signature="initialize()[pri:0, instance:com.tutorialsninja.selenium.CheckoutTest@10c626be]" started-at="2020-08-05T14:14:24 EDT" name="initialize" finished-at="2020-08-05T14:14:30 EDT" duration-ms="6004" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initialize -->
+        <test-method signature="testCheckout()[pri:0, instance:com.tutorialsninja.selenium.CheckoutTest@10c626be]" started-at="2020-08-05T14:14:30 EDT" name="testCheckout" finished-at="2020-08-05T14:15:06 EDT" duration-ms="36218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCheckout -->
+      </class> <!-- com.tutorialsninja.selenium.CheckoutTest -->
+    </test> <!-- Checkout Test -->
+  </suite> <!-- Suite -->
+</testng-results>
